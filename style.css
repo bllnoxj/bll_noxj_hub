@@ -45,6 +45,17 @@ body {
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.category-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 15px;
 }
 
 .youtube-button, .twitch-button, .discord-button, .tiktok-button {
