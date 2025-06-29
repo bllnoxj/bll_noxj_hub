@@ -117,3 +117,21 @@ body {
 }
 
 
+.cards-button-text {
+    background-color: #1a73e8; /* Bleu gaming, couleur vive */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: inherit;
+    display: inline-block;
+}
+
+.cards-button-text:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(26, 115, 232, 0.3);
+}
